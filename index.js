@@ -49,7 +49,7 @@ setInterval(async () => {
             console.error('Помилка при надсиланні повідомлення:', error.message);
         }
     }
-}, 5000);
+}, 3600000);
 
 // Команда /start
 bot.onText(/\/start/, (msg) => {
